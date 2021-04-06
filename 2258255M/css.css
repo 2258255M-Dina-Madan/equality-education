@@ -1,0 +1,900 @@
+body {
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 0.94rem;
+}
+
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+  }
+  
+  /* Links inside the navbar */
+  
+  @media screen and ( min-width: 801px ) {
+  .navbar a {
+	float: left;
+	color: rgb(218,196,185);
+	text-align: center;
+	padding: 12px 70px;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  }
+
+
+@media screen and ( max-width: 800px ) {
+	.navbar a {
+  float: none;
+	display: block;
+	text-align: left;
+	width: 100%;
+	color: rgb(218,196,185);
+	margin: 0;
+	padding: 14px;
+	text-decoration: none;
+  }
+}
+
+ @media screen and ( min-width: 801px ) {
+#changeText {
+	float: left;
+	color: rgb(90, 89, 89);
+	font-size: 1.5em;
+	text-align: center;
+	padding: 14px 13px;
+	text-decoration: none;
+  }
+ }
+  
+  /* The dropdown container */
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+ 
+  @media screen and ( max-width: 800px ) {
+	#changeText {
+	float: none;
+	display: block;
+	color: rgb(90, 89, 89);
+	padding: 14px;
+	text-decoration: none;
+	text-align: left;
+	margin:0;
+	  }
+}
+
+@media screen and ( max-width: 800px ) {
+	.dropdown { 
+		float: none;
+	overflow: hidden;
+	}
+}
+
+
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+	border: none;
+	outline: none;
+	color: rgb(218,196,185);
+	padding: 14px 16px;
+	background-color: white;
+	font-size: 0.94rem;
+	font-family: 'Lexend Mega', sans-serif; 
+	margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+  color: white;
+  background-color: rgb(218,196,185);
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	float: none;
+	color: rgb(218,196,185);
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+
+
+
+/*Home Page*/
+#slideshowvideo {
+	width:100%;
+ 	height: 500px;
+}
+
+
+#slideshow1 {
+	background-color: rgb(218,196,185);
+	color: white;
+	font-family: inherit;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0% 0% 0% 42%;
+	cursor: pointer;
+}
+
+@media screen and ( max-width: 800px ) {
+	#slideshow1 { 
+		width: 30%;
+		height:auto;
+		margin: 0;
+	 }
+  }
+
+
+#slideshow2 {
+	background-color: rgb(218,196,185);
+	color: white;
+	font-family: inherit;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+
+@media screen and ( max-width: 800px ) {
+	#slideshow2 { 
+		width: 30%;
+		height:auto;
+		margin: 0;
+	 }
+  }
+
+
+
+/*Attainment gap page*/
+
+  @media screen and ( min-width: 801px ) {
+.attainmentvideo iframe {
+	width:30%;
+	margin: 0% 0% 0% 35%;
+
+}
+
+}
+
+@media screen and ( max-width: 801px ) {
+	.attainmentvideo iframe { 
+		width: 100%;
+		height:auto;
+		margin: 0;
+	 }
+  }
+ 
+
+  @media screen and ( min-width: 801px ) {
+.attainmentgraph img {
+	box-sizing:border-box;
+	height: 480px;
+	width: 50%;
+	margin: 6% 0% 0% 0%;
+}
+ }
+
+
+@media screen and ( max-width: 800px ) {
+	.attainmentgraph img { 
+		width: 100%;
+		height:auto;
+	 }
+  }
+
+.explainbox {
+	background-color:rgb(219,203,194);
+	box-sizing:border-box;
+	height: auto;
+	width: 50%;
+	padding: 1%;
+	margin: -32% 0% 0% 50%;
+  }
+
+
+  @media screen and ( min-width: 801px ) {
+.explainbox {
+	background-color:rgb(219,203,194);
+	box-sizing:border-box;
+	height: auto;
+	width: 50%;
+	padding: 1%;
+	margin: -25% 0% 0% 50%;
+  }
+  }
+
+  .explainbox p {
+	font-size: 0.82rem;
+}
+
+  @media screen and ( max-width: 800px ) {
+	.explainbox { 
+		background-color:rgb(219,203,194);
+		box-sizing:border-box;
+		width: 100%;
+		height:auto;
+		margin: 0;
+	 }
+  }
+  
+
+.sourcelink {
+	font-size: 0.9rem;
+	margin: 0% 0% 0% 0%;
+}
+
+#slideshowtitle {
+	color: rgb(49, 48, 48); 
+	margin: 10% 0% 0% 1%;
+}
+
+/*external css for slideshow*/
+flickity.css  {
+-webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.gallery {
+  background: white;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  background-color: rgb(249,239,237);
+  counter-increment: gallery-cell;
+}
+
+@media screen and ( min-width: 768px ) {
+	.gallery-cell { width: 50%}
+  }
+  @media screen and ( min-width: 768px ) {
+	.gallery-cell { height: 400px}
+  }
+
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: rgb(15, 15, 15);
+}
+
+
+/*Debate pages*/
+
+.container {
+	box-sizing: border-box;
+	height:auto;
+	width:100%;
+	background-color: rgb(249,239,237);
+	color:black;
+	text-align: center;
+}
+
+.diverse {
+	box-sizing:border-box;
+	height: auto;
+	width: 100%;
+	background-color: rgb(219,203,194);
+	margin-top: -35px;
+
+}
+
+ @media screen and ( min-width: 801px ) {
+.diversetitle {
+	box-sizing:border-box;
+	height: auto;
+	width: 40%;
+	border-style:double;
+	border-color: black;
+	margin-top: 50px;
+	background-color: white;
+	position: relative;
+
+}
+ }
+
+@media screen and (max-width: 800px) {
+	.diversetitle {
+		box-sizing:border-box;
+		height: auto;
+		width: 100%;
+		border-style:double;
+	border-color: black;
+	margin-top: 50px;
+	background-color: white;
+	position: relative;
+	}
+	
+}
+
+@media screen and ( min-width: 801px ) {
+.diversemedia video {
+	box-sizing:border-box;
+	height: 500px;
+	width: 45%;
+	margin-top: 2%;
+}
+}
+
+@media screen and (max-width: 800px) {
+	.diversemedia video { width: 100% }
+	
+}
+
+ @media screen and ( min-width: 801px ) {
+.diversetext  {
+	box-sizing:border-box;
+	height: 500px;
+	width: 50%;
+	margin: -25% 0% 0% 48%;
+
+}
+}
+
+@media screen and (max-width: 800px) {
+	.diversetext { 
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+	
+}
+
+
+/*learning page*/
+
+ @media screen and ( min-width: 801px ) {
+.decolonisemedia {
+	box-sizing:border-box;
+	height: auto;
+	width: 70%;
+	margin: -8% 0% 0% 10%;
+
+}
+ }
+
+@media screen and (max-width: 800px) {
+	.decolonisemedia { 
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+.decolonisetitle {
+	margin: 5% 0% 0% 50%;
+}
+
+@media screen and (max-width: 768px) {
+	.decolonisetitle { 
+		width: 100%;
+		margin: 0;
+	
+	}
+	
+}
+
+.decolonisetext {
+	box-sizing:border-box;
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: rgb(249,239,237);
+	border-width: 15px;
+	margin: 0% 0% 0% 50%;
+}
+
+@media screen and (max-width: 768px) {
+	.decolonisetext { 
+		width: 100%;
+		margin: 0;
+	}
+	
+}
+
+
+/*teaching page*/
+
+.decolonisemedia1 video {
+	height: 100px;
+	width: 30%;
+	margin: 300px 0px 0px 200px;
+}
+
+@media screen and (max-width: 768px) {
+	.decolonisemedia1 video { 
+		width: 100%;
+		margin: 0;
+	 }
+	
+}
+
+.decolonisemedia2 video {
+	height: 100px;
+	width: 30%;
+	margin: 200px 0px 0px 200px;
+
+}
+
+@media screen and (max-width: 768px) {
+	.decolonisemedia2 video { 
+		width: 100%;
+		margin: 0;
+	 }
+	
+	
+}
+
+@media screen and ( min-width: 801px ) {
+.decolonisetitle1 {
+	margin: -30% 0% 0% 49%;
+}
+}
+
+@media screen and (max-width: 800px) {
+	.decolonisetitle1 { 
+		width: 100%;
+		margin: 0;
+	
+	}
+	
+}
+
+@media screen and ( min-width: 801px ) {
+.decolonisetext1 {
+	box-sizing:border-box;
+	width: 50%;
+	height: auto;
+	border-style: solid;
+	border-color: rgb(249,239,237);
+	border-width: 15px;
+	margin: 0% 0% 0% 50%;
+}
+}
+
+@media screen and (max-width: 800px) {
+	.decolonisetext1 { 
+		width: 100%;
+		margin: 0;
+		border-style: solid;
+	border-color: rgb(249,239,237);
+	border-width: 15px;
+}
+	
+}
+
+
+/* Footer */
+
+@media screen and ( min-width: 801px ) {
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3%;
+	background-color: rgb(218,196,185);
+	color: white;
+	text-align: center;
+}
+}
+@media screen and ( min-width: 801px ) {
+.footer a {
+    float: left;
+    color: white;
+	font-size: 0.9em;
+    text-decoration: none;
+    padding-left: 110px;
+}
+}
+
+@media screen and (max-width: 800px) {
+	.footer { 
+		width: 100%;
+		margin: 0;
+		height: 3%;
+		background-color: rgb(218,196,185);
+		color: white;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+	.footer a { 
+		padding: 3px;
+		color: white;
+    text-decoration: none;
+	font-size: 0.43em;
+	}
+	
+}
+
+/*Stories and about Page*/
+
+.story1 {
+	text-align: center;
+	margin: 5%;
+}
+
+.story1 img {
+	width: 40%;
+	height: 40%;
+}
+
+@media screen and ( max-width: 768px ) {
+	.story1 img { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+
+.story2 {
+	text-align: center;
+	margin: 5%;
+}
+
+.story2 img {
+	width:20%;
+	height:20%;
+}
+
+
+@media screen and ( max-width: 768px ) {
+	.story2 img { 
+		margin: 0;
+		width: 50%;
+		height: auto;
+	}
+  }
+
+  .story3 {
+	text-align: center;
+	margin: 5%;
+}
+
+.story3 img {
+	width:32%;
+	height:25%;
+}
+
+
+@media screen and ( max-width: 768px ) {
+	.story3 img { 
+		margin: 0;
+		width: 80%;
+		height: auto;
+	}
+  }
+
+
+.story1 button {
+	background-color: rgb(218,196,185);
+	color: white;
+	font-family: inherit;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+.story2 button {
+	background-color: rgb(218,196,185);
+	color: white;
+	font-family: inherit;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.story3 button {
+	background-color: rgb(218,196,185);
+	color: white;
+	font-family: inherit;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/*rhodes must fall*/
+
+#reveal1 {
+	background-color: rgb(218,196,185);
+	color: black;
+	font-family: inherit;
+	border: none;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	margin: 2% 0% 0% 30%;
+}
+
+@media screen and ( max-width: 768px ) {
+	#reveal1 { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+
+/*ucl eugenics*/
+
+  #reveal2 {
+	background-color: rgb(218,196,185);
+	color: black;
+	font-family: inherit;
+	border: none;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	margin: 2% 0% 0% 30%;
+}
+
+@media screen and ( max-width: 768px ) {
+	#reveal2 { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+
+
+/*what is the debate*/
+
+#reveal4 {
+	background-color: rgb(218,196,185);
+	color: black;
+	font-family: inherit;
+	border: none;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	margin: 2% 0% 0% 30%;
+}
+
+@media screen and ( max-width: 768px ) {
+	#reveal4 { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+
+
+/*history*/
+
+#reveal5 {
+	background-color: rgb(218,196,185);
+	color: black;
+	font-family: inherit;
+	border: none;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	margin: 2% 0% 0% 30%;
+}
+
+@media screen and ( max-width: 768px ) {
+	#reveal5 { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+  
+/*purpose*/
+
+#reveal6 {
+	background-color: rgb(218,196,185);
+	color: black;
+	font-family: inherit;
+	border: none;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	margin: 2% 0% 0% 30%;
+}
+
+@media screen and ( max-width: 768px ) {
+	#reveal6 { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+
+/*important*/
+
+
+#reveal7 {
+	background-color: rgb(218,196,185);
+	color: black;
+	font-family: inherit;
+	border: none;
+	text-align: center;
+	width: 40%;
+	height: auto;
+	margin: 2% 0% 0% 30%;
+}
+
+@media screen and ( max-width: 768px ) {
+	#reveal7 { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+  }
+
+
+
+/*Feedback Page*/
+
+/*comment box*/
+.rform {
+	box-sizing:border-box;
+	height: auto;
+	width: 50%;
+	padding: 20px;
+	border-style: solid;
+	border-color:rgb(171,170,171);
+	cursor: pointer;
+	margin: 5% 0px 0px 50%;
+	
+}
+
+@media screen and ( max-width: 768px ) {
+	.rform { 
+	width:100%;
+	margin: 0;
+}
+
+}
+
+#name {
+	height: 25px;
+	width: 50%;
+	margin-bottom: 25px;
+}
+
+#comment {
+	height: 100px;
+	width:100%;
+	margin-bottom: 20px;
+}
+
+.rform legend {
+	font-size: 30px;
+
+}
+
+.rform p {
+	margin-bottom: 20px;
+	
+}
+
+#submitbutton {
+	height: 30px;
+	width: 90px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+/*microsoft questionaire*/
+@media screen and ( min-width: 801px ) {
+iframe {
+	height: 449px;
+	width: 50%;
+	margin: -24% 30% 10% 0%;
+}
+}
+
+@media screen and ( max-width: 800px ) {
+	iframe { 
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+  }
+  
+
+/*thank you page*/
+
+.thankyoumessage {
+	width:50%;
+	height:300px;
+	font-size: 1.5em;
+	color:rgb(90, 89, 89);
+	margin: 8% 0% 0% 20%;
+	border: solid;
+	border-color:rgb(90, 89, 89);
+	background-color:rgb(249,239,237);
+}
+
+
+.thankyoumessage { 
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+
+/*Resources section*/
+
+.accordion {
+	background-color: rgb(249,239,237);
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	font-family: inherit;
+	transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+	background-color: #ccc; 
+  }
+  
+  .panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+  }

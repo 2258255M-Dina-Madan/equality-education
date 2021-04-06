@@ -1,0 +1,217 @@
+/*navigation bar */
+ul {
+	list-style-type: none;
+	background-color: white;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+	border-bottom: 0.3em solid rgb(153,123,97);
+}
+
+
+.navbar li {
+	float: none;
+
+}
+
+#title {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+	
+li a { 
+	color: rgb(153,123,97);
+	display: block;
+	text-align: center;
+	padding:1em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+  }
+
+/* Dropdown button */
+.dropdown .dropbtn {
+	border: none;
+	outline: none;
+	color: rgb(153,123,97);
+	font-weight: bold;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 25px 0px 0px 0px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	color: black;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+
+.dropdown-content li a {
+	float: none;
+	color: black;
+	padding: 12px 60px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+  }
+
+.dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+
+
+
+
+  <style>
+
+.whatisbox {
+	background-color:rgb(153,123,97);
+	color: black;
+	box-sizing:border-box;
+	height: auto;
+	width: 100%;
+	padding: 1%;
+
+}
+#readinglistvideo video {
+	box-sizing:border-box;
+	height: 500px;
+	width: 50%;
+}
+
+@media screen and ( max-width: 768px ) {
+  #readinglistvideo video { width: 100%}
+  }
+
+  #paperlink {
+   background-color:rgb(153,123,97);
+	 box-sizing:border-box;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+}
+</style>
+
+
+
+<div class="introbox">
+  <h1>What is the Debate?</h1>
+  <p>This debate focusses on whether diversifying U.K universities' reading list, is an effective method in helping to 
+    decolonise the university institution and improve the university experience of BAME students. Those who have engaged in this
+    debate so far have contrasting ideas on whether this is successful. Some argue that the diverse reading list is a neccesisity to
+    the voices that studens learn from are not just from one group of people. However, others argue that, although there are benefits
+    to a diverse reading list, this is not enough to fully decolonise these insitutions. In order, to fully rid higher Education
+    Insituitions (HEI) of racism, teaching practise requires change too.</p>
+</div>
+
+
+<!--internal link to jumping in the page-->
+
+<a id="linktointrobox">
+<div class="introimg">
+  <img src="../Multimedia/freeeducation.jpg" alt="image" style="width:70%">
+</div>
+</a>
+ 
+
+<div class="historybox">
+  <h1>What is the Historical Background?</h1>
+  <p>Decolonisation can be defined as "acknowledging the impact of colonialism and undoing structures of power" (UWE Bristol). 
+    It is vital to apply this to universities, particularly in the United Kingdom, where universities were historicaly financed 
+    through the empire and slavery (Jackson, 2020). In modern times, universities can still be seen as perpeptuating colonial
+    and Eurocentric ideology. Therefore, by decolonising these insitutions, knowledge will be free from colonial values too.
+    Not only is knowledge a key demand of decolonising univerisities, but experience of BAME students is also affected. Racism
+    in the the classroom and lack of diverse teaching staff are vital changes in the role of decolonisation. </p>
+</div>
+
+<div class="historyimg">
+  <img src="../Multimedia/freeeducation.jpg" alt="image" style="width:70%">
+  </div>
+
+  <div class="purposebox">
+    <h1>What is the Purpose of our Website?</h1>
+    <p>The aim of our educational website is to bring together resources and information to inform our readers on this 
+        multifaceted issue that needs addressing. This website should make it clear that one solution, diversifying the reading list or 
+        staff, to this problem is not enough. This is because colonialism and racisms are deep rooted in U.K universities. </p>
+    </div>
+
+  <div class="purposeimg">
+    <img src="../Multimedia/freeeducation.jpg" alt="image" style="width:70%">
+    </div>
+  
+  <div class="historybox">
+    <h1>Why is this Topic Important?</h1>
+    <p>We strongly believe this debate is vital and requires more awarness. There are major consequences for BAME students if 
+        this issue is not tackled. Currently, in the U.K, there are only 35 Black British female proffesors compared to over 1200
+        white male proffesors. This shocking statistic is a result of the BAME students not progressing to post-graduates and 
+        subsequently high positions in universities (Jackson, 2020). The affects of colonialism are rife in our universities, 
+        and we need to address this.</p>
+  </div>
+  
+  <div class="historyimg">
+    <img src="../Multimedia/freeeducation.jpg" alt="image" style="width:70%">
+    </div>
+
+
+
+
+
+ @media screen and ( max-width: 768px ) {
+	  .navbar { 
+		  overflow: hidden;
+	  }
+  }
+  
+  @media screen and ( max-width: 768px ) {
+	  .navbar a {
+	float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  color: rgb(218,196,185);
+	  margin: 0;
+	  padding: 14px;
+	  text-decoration: none;
+	}
+  }
+  
+
+
+    
+  /* Links inside the navbar */
+  .navbar a {
+	float: left;
+	color: rgb(218,196,185);
+	text-align: center;
+	padding: 14px 46px;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+
+
+
+
+
+
+
